@@ -1,0 +1,105 @@
+body{
+    background-color:darkgrey ;  
+}
+
+#envo{
+width: 700px;
+margin-left: auto;
+margin-right: auto;
+}
+
+form{
+    background-color: black;
+    color:blanchedalmond;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    float: left;
+    width: 700px;
+
+}
+h1{
+    text-align: center;
+    color:blue;
+    background-color: darkslategrey;
+    margin-bottom: 0px;
+}
+p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.caja{
+    width: 100%;
+    margin-bottom: 10px;
+    float: left;
+}
+.texto{
+    width: 30%;
+    float: left;
+    text-align: right;
+}
+.control{
+    width: 69%;
+    text-align: left;
+    margin-left: 1%;
+    float: left;
+}
+.control input{
+    width: 80%;
+}
+.caja2{
+    width: 700px;
+    float: left;
+    background-color: burlywood;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.col1{
+   width: 450px;
+   float: left;
+}
+
+
+.item{
+    width: 450px;
+    float: left;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+.desc{
+   width: 450px;
+   float: left;
+   font-size: 12px;
+   margin-bottom: 10px;
+}
+
+.col2{
+   width: 250px;
+   float: left;
+}
+
+.item2{
+width: 250px;
+float: left;
+}
+
+.item2 img{
+    width: 50%;
+    float: right;
+}
+.col3{
+    width: 700px;
+    float: left;
+
+}
+.col3_items{
+float: left;
+margin-right: 10px;
+}

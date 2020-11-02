@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+
+
+
+   .grup1{
+        width: 100%;
+        background-color: blue;
+   }
+
+   .logo{
+    width: 100%;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+   }
+
+   #img1{
+        width: 200px;
+        height: 100px;
+        background-color: cornsilk;
+
+   }
+   .menu{
+        width: 100%;
+        background-color: crimson;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+   }
+
+   .algo{
+        width: 25%;
+        height: 100px;
+        background-color: black;
+        display: none;
+
+   }
+
+   .item{
+        width: 18%;
+        height: 20px;
+        background-color:white;
+        margin-bottom: 5px;
+   }
+
+   .item:hover{
+
+    background-color: cyan;
+       
+   }
+
+
+   .contenido{
+        width: 100%;
+        background-color: yellow;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+   }
+   .grup2{
+        width: 75%;
+        height: 500px;
+        background-color: red;
+        padding: 20px;
+       
+   }
+   .grup3{
+        width: 25%;
+        height: 700px;
+        background-color: cadetblue;
+        background-image: url(carpeta_imagenes/asd1.png);
+        background-repeat: repeat-x;
+        background-size: 100px;
+      
+
+
+   }
+   .pie{
+        width: 100%;
+        height: 300px;
+        background-color: black;
+   }
+
+   @media (max-width: 600px) {
+
+    .contenido{
+
+        flex-direction: column;
+
+    }
+
+    .grup2{
+
+        width: 100%;
+    }
+  
+    .grup3{
+        width: 100%;
+
+    }
+    .menu{
+        flex-direction: column;
+        width: 75%;
+       
+
+    }
+    .item{
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .algo{
+
+        display: block;
+    }
+  }
+
+
+
+
+</style>
+
+<body>
+
+    <div class="grup1">
+        <div class="logo">
+            <div id="img1">
+
+            </div>
+        </div>
+
+
+
+        <div class="menu">
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            
+        </div>
+
+        <div class="algo">
+
+        </div>
+
+
+    </div>
+
+    <div class="contenido">
+
+    <div class="grup2">
+
+        <p>asdjhaksdgagsd</p>
+        <p>asdjhaksdgagsd</p>
+        <p>asdjhaksdgagsd</p>
+        <p>asdjhaksdgagsd</p>
+        <p>asdjhaksdgagsd</p>
+    </div>
+
+    <div class="grup3">
+
+        
+    </div>
+
+</div>
+
+    <div class="pie">
+
+    </div>
+
+    
+</body>
+</html>
