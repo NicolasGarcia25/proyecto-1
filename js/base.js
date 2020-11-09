@@ -1,6 +1,34 @@
 var logo_a = document.getElementById("logo_a")
 
-logo_a.innerHTML = `<div id="img1">
+var menu = document.getElementById("menu")
+
+try{
+
+var tabla1 = document.getElementById("tabla1")
+
+tabla1.classList.add = "fondo-color-azul"
+tabla1.classList.remove = "flex-column"
+tabla1.classList.add = "flex-row"
+
+}catch{
+
+
+}
+
+
+
+generar_encabezado()
+
+generar_menu()
+
+
+
+//swal("Good job!", "You clicked the button!", "success");
+
+
+function generar_encabezado(){
+
+  logo_a.innerHTML = `<div id="img1">
 <img src="carpeta_imagenes/lithium_store_logo_transparente.png" />
 </div>
 <div style="position: relative" id="cajainput_grande">
@@ -41,12 +69,14 @@ logo_a.innerHTML = `<div id="img1">
 </div>`
 
 
+}
 
 
 
-var menu =document.getElementById("menu")
 
-menu.innerHTML= ` <div class="item">
+function generar_menu(){
+
+  menu.innerHTML= ` <div class="item">
 <p>Magic</p>
 <p class="flecha_item">&darr;</p>
 </div>
@@ -72,6 +102,14 @@ menu.innerHTML= ` <div class="item">
 </div>`
 
 
+}
+
+
+
+
+
+
+
 
 
 
@@ -81,102 +119,101 @@ caja_pie.innerHTML =  `<div id="divisor_pie">
 <div id="caja_texto_pie">
   <p>Pie de pagina</p>
 </div>
-<div id="columnas_pie">
-  <div id="pie_columna1">
-    <div class="pie_columna1_item">
+<div class="columna flex-row-center">
+  <div class="columna_pie flex-column-center">
+    <div class="pie_columna_item">
       <p>asd</p>
     </div>
-    <div class="pie_columna1_item">
+    <div class="pie_columna_item">
       <p>asd</p>
     </div>
-    <div class="pie_columna1_item">
+    <div class="pie_columna_item">
       <p>asd</p>
     </div>
-    <div class="pie_columna1_item">
+    <div class="pie_columna_item">
       <p>asdasd</p>
     </div>
-    <div class="pie_columna1_item">
+    <div class="pie_columna_item">
       <p>asdasda</p>
     </div>
   </div>
 
-  <div id="pie_columna2">
-    <div class="pie_columna2_item">
+  <div class="columna_pie flex-column-center">
+    <div class="pie_columna_item">
       <p>asd</p>
     </div>
-    <div class="pie_columna2_item">
+    <div class="pie_columna_item">
       <p>asd</p>
     </div>
-    <div class="pie_columna2_item">
+    <div class="pie_columna_item">
       <p>asd</p>
     </div>
-    <div class="pie_columna2_item">
+    <div class="pie_columna_item">
       <p>asd</p>
     </div>
-    <div class="pie_columna2_item">
-      <p>asd</p>
-    </div>
-  </div>
-
-  <div id="pie_columna3">
-    <div class="pie_columna3_item">
-      <p>asd</p>
-    </div>
-    <div class="pie_columna3_item">
-      <p>asd</p>
-    </div>
-    <div class="pie_columna3_item">
-      <p>asd</p>
-    </div>
-    <div class="pie_columna3_item">
-      <p>asd</p>
-    </div>
-    <div class="pie_columna3_item">
-      <p>asd</p>
-    </div>
-    <div class="pie_columna3_item">
+    <div class="pie_columna_item">
       <p>asd</p>
     </div>
   </div>
 
-  <div id="pie_columna4">
-    <div class="pie_columna4_item">
+  <div class="columna_pie flex-column-center">
+    <div class="pie_columna_item">
       <p>asd</p>
     </div>
-    <div class="pie_columna4_item">
+    <div class="pie_columna_item">
       <p>asd</p>
     </div>
-    <div class="pie_columna4_item">
+    <div class="pie_columna_item">
       <p>asd</p>
     </div>
-    <div class="pie_columna4_item">
+    <div class="pie_columna_item">
       <p>asd</p>
     </div>
-    <div class="pie_columna4_item">
+    <div class="pie_columna_item">
       <p>asd</p>
     </div>
-    <div class="pie_columna4_item">
+    <div class="pie_columna_item">
       <p>asd</p>
     </div>
   </div>
 
-  <div id="pie_columna5">
-    <div class="pie_columna5_item">
+  <div class="columna_pie flex-column-center">
+    <div class="pie_columna_item">
       <p>asd</p>
     </div>
-    <div class="pie_columna5_item">
+    <div class="pie_columna_item">
       <p>asd</p>
     </div>
-    <div class="pie_columna5_item">
+    <div class="pie_columna_item">
       <p>asd</p>
     </div>
-    <div class="pie_columna5_item">
+    <div class="pie_columna_item">
       <p>asd</p>
     </div>
-    <div class="pie_columna5_item">
+    <div class="pie_columna_item">
+      <p>asd</p>
+    </div>
+    <div class="pie_columna_item">
+      <p>asd</p>
+    </div>
+  </div>
+
+  <div class="columna_pie flex-column-center">
+    <div class="pie_columna_item">
+      <p>asd</p>
+    </div>
+    <div class="pie_columna_item">
+      <p>asd</p>
+    </div>
+    <div class="pie_columna_item">
+      <p>asd</p>
+    </div>
+    <div class="pie_columna_item">
+      <p>asd</p>
+    </div>
+    <div class="pie_columna_item">
       <p>asd</p>
     </div>
   </div>
 </div>
 </div>`
-

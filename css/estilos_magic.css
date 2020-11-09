@@ -1,0 +1,116 @@
+.barra_superior_filtro{
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: sans-serif;
+}
+.resultados{
+    font-size: 20px;
+    font-weight: bold;
+}
+.vista_productos{
+    font-size: 20px;
+    font-weight: bold;
+}
+.barra_izq_filtro_busqueda{
+    width: 18%;
+    font-family: sans-serif;
+    padding-left: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.item_filtro_busqueda{
+    font-weight: bold;
+    font-size: 18px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.filtro_expansiones{
+    width: 100%;
+    padding-left: 15px;
+    font-size: 14px;
+    padding-top: 1px;
+    padding-bottom: 1px;    
+    font-family: sans-serif;
+    font-weight: normal;
+}
+.expansion{
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.sans_serif{
+    font-family: sans-serif;
+}
+
+.bordes{
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgray;
+    border-radius: 5px;
+}
+.contenido_cartas{ 
+    justify-content: space-between;
+    width: 82%;
+}
+.columna_cartas{
+    width: 33%;
+}
+.bordes_cartas{
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgray;
+    border-radius: 5px;
+    margin: 10px;
+}
+.item_cartas{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.imagen_carta{
+    width: 40%;
+}
+.imagen_carta img{
+    width: 70%;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    
+}
+.texto_carta{
+    width: 40%;
+}
+.nombre_juego{
+    font-size: 12px;
+    font-weight: bold;
+}
+.nombre_expansion{
+    font-size: 10px;
+    color: gray;
+    padding-bottom: 2px;
+}
+
+.rareza{
+    font-size: 12px;
+    font-weight: bold;
+    color: gray;
+}
+
+.nombre_carta{
+    font-size: 12px;
+    font-weight: bold;
+    padding-bottom: 6px;
+}
+.cantidad_listada{
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.precio_descripcion{
+    font-size: 12px;
+    font-weight: bold;
+}
+.precio_valor{
+    font-size: 14px;
+    font-weight: bold;
+}
