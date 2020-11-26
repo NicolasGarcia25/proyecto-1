@@ -2,13 +2,9 @@
 const contenido = document.getElementById("contenido")
 
 
-for()
-
-let url = `https://swapi.dev/api/people/${i}/`
+let url = `https://swapi.dev/api/people/1/`
 
 fetch(url)
-jdhgjh
-dushgfhsdsdj
 .then(res => res.json())
 .then(respuesta => {
 

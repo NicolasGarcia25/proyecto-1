@@ -195,7 +195,6 @@ img {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-
 }
 
 .item{
@@ -207,7 +206,7 @@ img {
 }
 
 .flecha_item{
-    color: mediumspringgreen;
+    color:#3e8bca ;
     font-weight: bolder;
 }
 

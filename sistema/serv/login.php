@@ -1,12 +1,13 @@
 <?php
 session_start();
 $_SESSION["sesion"] = false;
+$validacion = false;
 
 $con = mysqli_connect("localhost","root","","basededatosgral");
 
-$var_nombre = $_POST["nombre_usuario"];
+$var_nombre = $_POST["usuario"];
 
-$var_contrasenia = $_POST["contrasenia_usuario"];
+$var_contrasenia = $_POST["clave"];
 
 
 //$mensaje = "INSERT INTO basededatosuser (nombre_usuario,contrasenia_usuario) values ('".$var_nombre."', '".$var_contrasenia."')";
@@ -21,16 +22,12 @@ if($ejec = mysqli_query($con,$mensaje)){
 
     if($registros >= 1){
         $_SESSION["sesion"] = true;
-        header("location: formulariocartas.php");
-    }else{
-        header("location: inicio_sesion.html");
+        $validacion = true;
+
     }
-}else{
-
-   echo "error <br>";
-
 }
 
+echo json_encode(array('validacion' => $validacion));
 
 //session_destroy();
 

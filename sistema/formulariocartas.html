@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/estilos_formulario_cartas.css">
+</head>
+
+<body>
+
+<div id="envo">    
+    <div>
+        <h1>Carga de carta </h1>  
+    </div>
+
+    <div>
+    <form action="consulta.php" method="POST" enctype="multipart/form-data">
+        <div class="caja">
+            <div class="texto">
+                <p>Nombre de la carta</p>
+            </div>
+            <div class="control">
+                <input  id="nombre" name="nombrecarta" data-valor="1" type="text" />
+            </div>
+        </div>
+
+        <div class="caja">
+            <div class="texto" >
+                <p>Expansion</p>
+            </div>
+            <div class="control">
+                <input id="expansion" name="expansion" type="text" />
+            </div>
+        </div>
+
+        <div class="caja">
+            <div class="texto">
+                <p>Imagen</p>
+            </div>
+            <div class="control">
+                <input id="imagen" name="imagen" type="file" />
+
+            </div>
+        </div>
+            <div>
+                <a id="btn2"> Cargar datos</a> 
+            </div>
+        
+    </form>
+    </div>
+
+
+        <div id="caja_contenedora">
+        </div>
+
+
+</div>
+</body>
+<script src="js/formulariocartas.js"></script>
+</html>

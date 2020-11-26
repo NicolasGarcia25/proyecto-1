@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="estilos_formulario_cartas.css">
+    <link rel="stylesheet" type="text/css" href="css/estilos_formulario_cartas.css">
     <title>Login</title>
 </head>
 <body>
@@ -13,13 +13,13 @@
         </div>
     
         <div>
-        <!--<form action="login.php" method="POST" enctype="multipart/form-data"> --> 
+        <form action="login.php" method="POST" enctype="multipart/form-data"> 
             <div class="caja">
                 <div class="texto">
                     <p>Nombre de usuario</p>
                 </div>
                 <div class="control">
-                    <input name="nombre_usuario" type="text" />
+                    <input id="usuario" type="text" />
                 </div>
             </div>
     
@@ -28,17 +28,18 @@
                     <p>Contraseña</p>
                 </div>
                 <div class="control">
-                    <input name="contrasenia_usuario" type="text" />
+                    <input id="clave" type="password" />
                 </div>
             </div>
                 <div>
-                    
+                    <a id="btn1">Enviar</a>
                     <!--<input type="submit" />-->
                 </div>
             
-        <!--</form>-->
+        </form>
         </div>
     
     
 </body>
+<script src="js/sesion.js"></script>
 </html>

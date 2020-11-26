@@ -1,6 +1,7 @@
 var logo_a = document.getElementById("logo_a")
 
 var menu = document.getElementById("menu")
+var login =document.getElementById("login")
 
 try{
 
@@ -99,7 +100,11 @@ function generar_menu(){
 <div class="item">
 <p>Gift Card</p>
 <p class="flecha_item">&darr;</p>
-</div>`
+</div>
+<div class="flecha_item" id="login">
+<p>Iniciar sesion</p>
+</div>
+`
 
 
 }
